@@ -82,21 +82,6 @@ body.height_auto {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-
-  .h1-id, .p-id{
-    text-align: center;
-  }
-
-}
-
-
 /*
  * Cover
  */
@@ -140,22 +125,55 @@ main {
 }
 
 .card.blog {
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 30px;
 }
 
-@media screen {
+/*
+* Blog Styles
+*/
+.logo_img {
+    width: 100px;
+    height: 100px;
+}
 
+/*
+* Resume Styles
+*/
+#resume_link {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#resume_link:focus, #resume_link:hover {
+    color: blueviolet;
+}
+
+.resume_pdf {
+    width: 210px;
+    height: 800px;
+}
+
+@media screen {
     .h1-id, .p-id{
       text-align: center;
     }
-
-  }
+}
 
 @media screen and (min-width: 260px) {
 
   .follow-me.horizontal {
     display: block;
+  }
+
+  .blog {
+    margin: 20px;
+    padding: 5px;
+  }
+
+  .resume_pdf {
+    width: 80%;
   }
 }
 
@@ -171,5 +189,23 @@ main {
   .h1-id, .p-id{
     text-align: left;
   }
+
+  .resume_pdf {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+
+    .h1-id, .p-id{
+        text-align: center;
+    }
 
 }
