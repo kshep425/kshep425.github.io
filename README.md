@@ -18,7 +18,7 @@ Keisha Shepherd's portfolio is available to potential employers and clients to:
 1. Follow Links to Projects and Repositories
 
 This is the homepage of my profile.
-<a href="https://kshep425.github.io/portfolio-bootstrap" target="_blank">Keisha Shepherd's Bootstrap Portfolio
+<a href="https://kshep425.github.io/" target="_blank">Keisha Shepherd's Bootstrap Portfolio
 <p align="center">
   <img alt="Profile Page" src="./images/kds_home_page.png">
 </p>
