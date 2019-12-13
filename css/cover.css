@@ -138,6 +138,11 @@ main {
     height: 100px;
 }
 
+.blog_link {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
 /*
 * Resume Styles
 */
@@ -153,6 +158,10 @@ main {
 .resume_pdf {
     width: 210px;
     height: 800px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: fixed;
 }
 
 @media screen {
