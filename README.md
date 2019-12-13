@@ -1,6 +1,14 @@
 # Keisha Shepherd's Bootstrap Portfolio
 This is Keisha Shepherd's Portfolio utilizing HTML, CSS, and Bootstrap4.  It will showcase applications to potential employers, clients, and collaborators.
 
+This is the homepage of my profile.
+<a href="https://kshep425.github.io/" target="_blank">Keisha Shepherd's Bootstrap Portfolio
+<p align="center">
+  <img alt="Profile Page" src="./images/kds_home_page.png">
+</p>
+</a>
+
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -17,12 +25,8 @@ Keisha Shepherd's portfolio is available to potential employers and clients to:
 1. Find Contact Information
 1. Follow Links to Projects and Repositories
 
-This is the homepage of my profile.
-<a href="https://kshep425.github.io/" target="_blank">Keisha Shepherd's Bootstrap Portfolio
-<p align="center">
-  <img alt="Profile Page" src="./images/kds_home_page.png">
-</p>
-</a>
+
+<iframe src="https://drive.google.com/file/d/1jd6oNc8ZPZftcJLGWrxRSgowSWjIiWEh/view" height="300px" width="400px"></iframe>
 
 ## Credits
 
