@@ -25,8 +25,7 @@ Keisha Shepherd's portfolio is available to potential employers and clients to:
 1. Find Contact Information
 1. Follow Links to Projects and Repositories
 
-
-<iframe src="https://drive.google.com/file/d/1jd6oNc8ZPZftcJLGWrxRSgowSWjIiWEh/view" height="300px" width="400px"></iframe>
+[View Instruction Video](https://drive.google.com/file/d/1jd6oNc8ZPZftcJLGWrxRSgowSWjIiWEh/view)
 
 ## Credits
 
