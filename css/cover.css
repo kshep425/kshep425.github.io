@@ -205,6 +205,10 @@ main {
     background-image: linear-gradient(to right, red, green , yellow); /* Standard syntax (must be last) */
 }
 
+.colors {
+    margin: 2px;
+}
+
 @media screen {
     .h1-id, .p-id{
       text-align: center;

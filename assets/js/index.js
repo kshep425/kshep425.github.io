@@ -109,7 +109,7 @@ $(document).ready(function () {
             },
             buttons: {
                 Cancel: function(){
-                    dialog.dialog("close")
+                    $("#dialog").dialog("close");
                 }
 
             }
@@ -124,6 +124,10 @@ $(document).ready(function () {
             list_of_colors.forEach(function (color_obj) {
                 list_item = document.createElement("button")
                 $(list_item).attr("id", color_obj.color)
+                $(list_item).css({
+                    border: `3px solid ${color_obj.color}`,
+                    "-webkit-text-stroke-width": ".5px",
+                })
 
                 //$(list_item).attr("href", "#")
                 $(list_item).attr("class", "colors")
