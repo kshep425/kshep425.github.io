@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>Team Report</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-"
+        crossorigin="anonymous">
+
+    {{!--[if lte IE 8] --}}
+    {{!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css"> --}}
+    {{![endif] --}}
+    {{!--[if gt IE 8] --}}{{! --}}
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+    {{!--<![endif] --}}
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    {{!--[if lte IE 8] --}}
+    {{!-- <link rel="stylesheet" href="css/layouts/marketing-old-ie.css"> --}}
+    {{![endif] --}}
+    {{!--[if gt IE 8] --}}
+    <link rel="stylesheet" href="/assets/css/layouts/marketing.css">
+    {{!--<![endif] --}}
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading" href="">KDS Dream Tech</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="/" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="/resume" class="pure-menu-link">Resume</a></li>
+                <li class="pure-menu-item"><a href="/portfolio" class="pure-menu-link">Portfolio</a></li>
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="/blog" class="pure-menu-link">Blog</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_first_week_of_bootcamp.html">Week 1</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_second_week_of_bootcamp.html">Week 2</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_third_week_of_bootcamp.html">Week 3</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_fourth_week_of_bootcamp.html">Week 4</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_fifth_week_of_bootcamp.html">Week 5</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_sixth_week_of_bootcamp.html">Week 6</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_seventh_week_of_bootcamp.html">Week 7</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="blogs/my_eigth_week_of_bootcamp.html">Week 8</a>
+                        </li>
+                    </ul>
+                </li>
+        </div>
+        </li>
+        <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head">KDS Dream Tech</h1>
+        </div>
+    </div>
+
+    {{body}}
+
+    <div class="footer l-box is-center">
+        © Copyright KDS Dream Tech 2019
+    </div>
+    <script type="text/javascript">
+        <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+    {{!-- Script to add the social media link images --}}
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+    {{!-- JQuery --}}
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    {{!-- JQUERY Voice Recognition --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    {{!-- JQUERY UI --}}
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    {{!-- BOOTSTRAP Javascript --}}
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    {{!-- Responsive Voice --}}
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=F7QN4dxF"></script>
+    {{!-- My Assets --}}
+    <script src="/assets/scripts/feedback.js" type="application/javascript"></script>
+    <script src="/assets/js/colors.js"></script>
+    <script src="/assets/js/index.js"></script>
+    </script>
+</body>
+
+</html>
